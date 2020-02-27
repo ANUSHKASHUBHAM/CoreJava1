@@ -10,9 +10,11 @@ public class Addresstest {
 	public void Testcity(){
 		assertEquals(false,ac1.validateCity("gvhb123"));
 	}
+	@Test
 	public void Teststate(){
 		assertEquals(false,ac1.validateState("74uttar pradesh"));
 	}
+	@Test
 	public void Testcountry(){
 		assertEquals(false,ac1.validateCountry("india528"));
 	}
